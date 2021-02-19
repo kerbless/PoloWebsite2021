@@ -1,5 +1,5 @@
 * {
-    
+    border: solid black 1px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,21 +12,18 @@
     width: 100%;
     height: 100%;
 
-    background:
+    background: /* backkground strategy: https://css-tricks.com/css-basics-using-multiple-backgrounds +  https://stackoverflow.com/questions/19502454/background-sizecover-performance-issues */
         linear-gradient(45deg, rgba(40,156,176,0.7) 0%, rgba(59,2,99,0.7) 100%) no-repeat center center fixed, /* gradient made with https://cssgradient.io */
-        url("../images/background.svg") no-repeat center center fixed;
+        url("../images/background.jpg") no-repeat center center fixed;
     background-size: cover;
 }  
 
-
-
 body {
-    
     color: seashell;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-/* Link styling from https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/ */
+/* Link styling from https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css */
 a {
     color: seashell;
     text-decoration: none; /* Remove default underline */
@@ -55,22 +52,11 @@ header ul {
 }
 
 header li {
-    display: inline;
     font-size: 1.2em;
-    letter-spacing: 1px;
-    color: white;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-}
-
-header li:hover::after {
-    background-size: 100% 2px;
 }
 
 section {
+    margin: 0% 15%;
     margin-top: 4%;
     display: flex;
     flex-direction: column;
@@ -80,7 +66,8 @@ section {
 section h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 5em;
+    font-size: 7em;
+    text-align: center;
     text-transform: uppercase;
 }
 
