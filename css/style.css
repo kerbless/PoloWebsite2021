@@ -1,5 +1,4 @@
 * {
-    border: solid black 1px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,30 +15,42 @@
         linear-gradient(45deg, rgba(40,156,176,0.7) 0%, rgba(59,2,99,0.7) 100%) no-repeat center center fixed, /* gradient made with https://cssgradient.io */
         url("../images/background.jpg") no-repeat center center fixed;
     background-size: cover;
-}  
+} 
 
 body {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
     color: seashell;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Link styling from https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css */
-a {
+.content-wrap {
+    margin: 0% 15%;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) { /* https://stackoverflow.com/questions/32574100/why-media-queries-has-less-priority-than-no-media-queries-css */
+    .content-wrap {
+        margin: 0% 0%;
+    }
+}
+
+.link { /* Link styling learned from https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css */
     color: seashell;
     text-decoration: none; /* Remove default underline */
-    /* Gradients are manages as images by css, so we use "background-image" */
-    background-image: linear-gradient(currentColor, currentColor); 
+    background-image: linear-gradient(currentColor, currentColor); /* Gradients are manages as images by css, so we use "background-image" */
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: 0% 1px;
     transition: background-size .4s ease;
 }
-
-a:hover, a:focus {
+.link:hover, .link:focus {
     background-size: 100% 1px;
 }
 
 header {
+    font-family: "Josefin Sans", sans-serif;
     border-bottom: solid white 1px;
     margin: 0% 15%;
     padding: 2% 0%;
@@ -52,21 +63,22 @@ header ul {
 }
 
 header li {
-    font-size: 1.2em;
+    font-size: 1.2vmax;
 }
 
 section {
-    margin: 0% 15%;
+    /* margin: 0% 15%; */
     margin-top: 4%;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
 }
 
 section h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 7em;
+    overflow-wrap: anywhere;
+    font-weight: 800;
+    font-size: 6vmax;
     text-align: center;
     text-transform: uppercase;
 }
@@ -79,15 +91,13 @@ section h1 {
 }
 
 section h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.2vmax;
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
 footer {
-    position: absolute;
     width: 100%;
     bottom: 0px;
     display: flex;
@@ -97,7 +107,7 @@ footer {
 }
 
 footer #copyright {
-    font-size: 0.7em;
+    font-size: 0.7vmax;
     text-align: center;
 }
 
@@ -131,4 +141,14 @@ footer h1 {
 footer p {
     padding-left: 10px;
 }
+*/
+
+/* NOTES */
+
+/* SELECTORS
+Descendant .selectors are used to match to any nested element. 
+Child > combinators, on the other hand, only match to the direct 
+child element and are defined by the greater than symbol. 
+The selector on the right must be the direct child of the element 
+on the left.
 */
