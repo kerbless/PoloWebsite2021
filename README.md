@@ -23,3 +23,6 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > Lo sviluppo si è adesso incentrato su una versione, che è stata riscritta partendo da 0 per consolidare prima di tutto l’apprendimento della sintassi HTML5 e CSS3 e per aggiungere alcune rifiniture.
 > Tra le rifiniture aggiunte ci sono cambiamenti di font, nuovo metodo di calcolo delle dimensioni con le viewport units, struttura della pagina in html con più keyword HTML5 e in particolare un nuovo metodo di aggiunta dello sfondo che non rende la pagina estremamente lenta ma allo stesso tempo permette di ridimensionarla e visualizzarla da diversi dispositivi senza rovinare la struttura grafica.
 > E’ possibile scaricare una cartella zip contenente tutti i file su cui sto lavorando nella versione più aggiornata dal link consegnato insieme alla relazione. Nello stesso link è presente un “README” con questa stessa relazione e aggiunte più dettagliate e frequenti.
+
+> ## Update 26.02.2021
+> Con le media queries adesso il sito è più "responsive", alcuni margini vengono ridotti per gli schermi di larghezza inferiore ai 400 pixel e alcuni elementi sono ordinati in modo diverso (verticale invece che orizzontale) per essere visualizzati meglio. Per lavorare su queste funzioni sono state aggiunti contenuti "filler" e modificati la struttura html e il codice css
