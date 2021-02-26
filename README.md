@@ -25,4 +25,4 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > E’ possibile scaricare una cartella zip contenente tutti i file su cui sto lavorando nella versione più aggiornata dal link consegnato insieme alla relazione. Nello stesso link è presente un “README” con questa stessa relazione e aggiunte più dettagliate e frequenti.
 
 > ## Update 26.02.2021
-> Con le media queries adesso il sito è più "responsive", alcuni margini vengono ridotti per gli schermi di larghezza inferiore ai 400 pixel e alcuni elementi sono ordinati in modo diverso (verticale invece che orizzontale) per essere visualizzati meglio. Per lavorare su queste funzioni sono state aggiunti contenuti "filler" e modificati la struttura html e il codice css
+> Con le media queries adesso il sito è più "responsive", alcuni margini vengono ridotti per gli schermi di larghezza inferiore ai 400 pixel e alcuni elementi sono ordinati in modo diverso (verticale invece che orizzontale) per essere visualizzati meglio. Per lavorare su queste funzioni sono stati aggiunti contenuti "filler" e modificati la struttura html e il codice css
