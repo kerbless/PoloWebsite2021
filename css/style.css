@@ -11,7 +11,7 @@
     width: 100%;
     height: 100%;
 
-    background: /* backkground strategy: https://css-tricks.com/css-basics-using-multiple-backgrounds +  https://stackoverflow.com/questions/19502454/background-sizecover-performance-issues */
+    background: /* background strategy: https://css-tricks.com/css-basics-using-multiple-backgrounds +  https://stackoverflow.com/questions/19502454/background-sizecover-performance-issues */
         linear-gradient(45deg, rgba(40,156,176,0.7) 0%, rgba(59,2,99,0.7) 100%) no-repeat center center fixed, /* gradient made with https://cssgradient.io */
         url("../images/background.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -28,13 +28,6 @@ body {
 .content-wrap {
     flex: 1;
     margin: 0% 15%;
-}
-
-/* Mobile */
-@media only screen and (max-width: 400px) { /* https://stackoverflow.com/questions/32574100/why-media-queries-has-less-priority-than-no-media-queries-css */
-    .content-wrap {
-        margin: 0% 0%;
-    }
 }
 
 .link { /* Link styling learned from https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css */
@@ -65,17 +58,17 @@ header ul {
 }
 
 header li {
+    padding: 0% 1%;
     font-size: 1.2vmax;
+    text-align: center;
 }
 
 section {
-    display: flex;
-    /* margin: 0% 15%; */
+    /* margin: 0% 15%; */   
     margin-top: 4%;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
 }
 
 section h1 {
@@ -86,6 +79,7 @@ section h1 {
     text-transform: uppercase;
 }
 
+
 #arrow-down {
     margin: 15px;
     padding: 15px;
@@ -93,7 +87,7 @@ section h1 {
     transform: rotate(-45deg);
 }
 
-section h2 {
+section p {
     font-size: 1.2vmax;
     display: flex;
     flex-flow: column;
@@ -101,6 +95,11 @@ section h2 {
 }
 
 .subsection {
+    background:rgba(0, 20, 30, 0.98);
+    border: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
@@ -115,6 +114,17 @@ footer {
 footer #copyright {
     font-size: 0.7vmax;
     text-align: center;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) { /* https://stackoverflow.com/questions/32574100/why-media-queries-has-less-priority-than-no-media-queries-css */
+    .content-wrap { /* remove margin from main page content */
+        margin: 0% 0%;
+    }
+
+    section { /* flex vertical for subsections */
+        flex-direction: column;
+    }
 }
 
 /*
