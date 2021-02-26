@@ -96,6 +96,7 @@ section p {
 
 .subsection {
     background:rgba(0, 20, 30, 0.98);
+    padding: 0% 1%;
     border: 1px white solid;
     display: flex;
     flex-direction: column;
