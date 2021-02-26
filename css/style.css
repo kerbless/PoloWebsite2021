@@ -46,6 +46,7 @@ body {
     background-size: 0% 1px;
     transition: background-size .4s ease;
 }
+
 .link:hover, .link:focus {
     background-size: 100% 1px;
 }
@@ -68,6 +69,7 @@ header li {
 }
 
 section {
+    display: flex;
     /* margin: 0% 15%; */
     margin-top: 4%;
     display: flex;
@@ -96,6 +98,9 @@ section h2 {
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+
+.subsection {
 }
 
 footer {
