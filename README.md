@@ -26,3 +26,8 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 
 > ## Update 26.02.2021
 > Con le media queries adesso il sito è più "responsive", alcuni margini vengono ridotti per gli schermi di larghezza inferiore ai 400 pixel e alcuni elementi sono ordinati in modo diverso (verticale invece che orizzontale) per essere visualizzati meglio. Per lavorare su queste funzioni sono stati aggiunti contenuti "filler" ed è stata modificata la struttura html così come il codice css.
+
+> ## Update 01.03.2021
+> Aggiunto contenuto html, modificati alcuni bordi. In quanto l'idea di design finale è cambiata, le due opzioni per proseguire sono:
+> -Creare nuovamente il sito da 0 con una nuova struttura e **il design finale più chiaro in mente**
+> -Continuare il sito attuale adattando invece il design alla struttura esistente, e lavorando di più sull'aggiunta dei contenuti in maniera funzionale nel sito.
