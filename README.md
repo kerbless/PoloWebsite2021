@@ -15,19 +15,24 @@
 ## Aggiornamenti sullo sviluppo 
 Altre info sugli updataes dello sviluppo possono essere trovati nei commit messages.
 
-> ## Update 09.02.2021
+> ## Update 09.02.21
 > Attualmente sono in sviluppo due principali bozze, la più avanzata delle quali è stata già consegnata insieme alla relazione.
 > E’ possibile scaricare una cartella zip contenente tutti i file su cui sto lavorando nella versione più aggiornata dal link consegnato insieme alla relazione.
 
-> ## Update 24.02.2021
+> ## Update 24.02.21
 > Lo sviluppo si è adesso incentrato su una versione, che è stata riscritta partendo da 0 per consolidare prima di tutto l’apprendimento della sintassi HTML5 e CSS3 e per aggiungere alcune rifiniture.
 > Tra le rifiniture aggiunte ci sono cambiamenti di font, nuovo metodo di calcolo delle dimensioni con le viewport units, struttura della pagina in html con più keyword HTML5 e in particolare un nuovo metodo di aggiunta dello sfondo che non rende la pagina estremamente lenta ma allo stesso tempo permette di ridimensionarla e visualizzarla da diversi dispositivi senza rovinare la struttura grafica.
 > E’ possibile scaricare una cartella zip contenente tutti i file su cui sto lavorando nella versione più aggiornata dal link consegnato insieme alla relazione. Nello stesso link è presente un “README” con questa stessa relazione e aggiunte più dettagliate e frequenti.
 
-> ## Update 26.02.2021
+> ## Update 26.02.21
 > Con le media queries adesso il sito è più "responsive", alcuni margini vengono ridotti per gli schermi di larghezza inferiore ai 400 pixel e alcuni elementi sono ordinati in modo diverso (verticale invece che orizzontale) per essere visualizzati meglio. Per lavorare su queste funzioni sono stati aggiunti contenuti "filler" ed è stata modificata la struttura html così come il codice css.
 
-> ## Update 01.03.2021
+> ## Update 01.03.21
 > Aggiunto contenuto html, modificati alcuni bordi. In quanto l'idea di design finale è cambiata, le due opzioni per proseguire sono:  
 > -Creare nuovamente il sito da 0 con una nuova struttura e **il design finale più chiaro in mente**.  
 > -Continuare il sito attuale adattando invece il design alla struttura esistente, e lavorando di più sull'aggiunta dei contenuti in maniera funzionale nel sito.
+
+> ## Update 06.03.21
+> Rispetto all'aggiornamento sullo sviluppo precedente (01.03.21) è stata scelta la seconda opzione.
+> Aggiunta una animazione in css sulla freccia sotto il titolo (Sono riuscito a crearla senza analizzare prima codici simili, usando solamente la documentazione MDN)
+>
