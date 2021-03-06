@@ -33,8 +33,8 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > -Continuare il sito attuale adattando invece il design alla struttura esistente, e lavorando di più sull'aggiunta dei contenuti in maniera funzionale nel sito.
 
 > ## Update 06.03.21
-> Rispetto all'aggiornamento sullo sviluppo precedente (01.03.21) è stata scelta la seconda opzione.
-> Aggiunta un'animazione in css sulla freccia sotto il titolo (Sono riuscito a crearla senza analizzare prima codici simili, usando solamente la documentazione MDN!)
+> Rispetto all'aggiornamento sullo sviluppo precedente (01.03.21) è stata scelta la seconda opzione.  
+> Aggiunta un'animazione in css sulla freccia sotto il titolo (Sono riuscito a crearla senza analizzare prima codici simili, usando solamente la documentazione MDN!)  
 > Modificato il footer con un testo che ci informa sullo sviluppo del sito e un link per arrivare a questa pagina.  
 > Aggiunti riferimenti per ogni link della barra di navigazione, per adesso rimandano al sito ufficiale.  
 > Modificato il modo in cui viene visualizzato il testo all'interno delle ".subsection"  
