@@ -33,6 +33,6 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > -Continuare il sito attuale adattando invece il design alla struttura esistente, e lavorando di più sull'aggiunta dei contenuti in maniera funzionale nel sito.
 
 > ## Update 06.03.21
-> Rispetto all'aggiornamento sullo sviluppo precedente (01.03.21) è stata scelta la seconda opzione.
+> Rispetto all'aggiornamento sullo sviluppo precedente (01.03.21) è stata scelta la seconda opzione.  
 > Aggiunta una animazione in css sulla freccia sotto il titolo (Sono riuscito a crearla senza analizzare prima codici simili, usando solamente la documentazione MDN)
 >
