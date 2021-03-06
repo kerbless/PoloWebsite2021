@@ -79,13 +79,29 @@ section h1 {
     text-transform: uppercase;
 }
 
-
 #arrow-down {
-    margin: 15px;
+    position: relative;
+    top: -10px;
+    margin: 20px;
     padding: 15px;
     box-shadow: 5px -5px 0 0 white inset;
     transform: rotate(-45deg);
 }
+
+#arrow-down:hover {
+    animation : arrow 0.7s infinite alternate;
+}
+
+@keyframes arrow {
+    from {
+        top: -10px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+
 
 section p {
     font-size: 1.2vmax;
