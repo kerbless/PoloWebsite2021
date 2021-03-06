@@ -101,8 +101,6 @@ section h1 {
     }
 }
 
-
-
 section p {
     font-size: 1.2vmax;
     display: flex;
@@ -112,7 +110,8 @@ section p {
 
 .subsection {
     background:rgba(0, 20, 30, 0.98);
-    padding: 0% 1%;
+    padding: 0% 3%;
+    text-align: center;
     border: 1px white solid;
     display: flex;
     flex-direction: column;
