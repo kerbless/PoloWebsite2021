@@ -110,7 +110,7 @@ section p {
 
 .subsection {
     background:rgba(0, 20, 30, 0.98);
-    padding: 0% 3%;
+    padding: 0% 2% 1% 2%;
     text-align: center;
     border: 1px white solid;
     display: flex;
