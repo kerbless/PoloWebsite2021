@@ -38,4 +38,9 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > Modificato il footer con un testo che ci informa sullo sviluppo del sito e un link per arrivare a questa pagina.  
 > Aggiunti riferimenti per ogni link della barra di navigazione, per adesso rimandano al sito ufficiale.  
 > Modificato il modo in cui viene visualizzato il testo all'interno delle ".subsection".
-> TODO: animazioni subsection + subsection cliccabili.
+> TODO: animazioni subsection, subsection cliccabili, menu on hover.
+
+> ## Update 08.03.21
+> Aggiunto codice html e css (per adesso commentato) sui menu dropdown. Successivamente verrà rimosso o migliorato.   
+> Aggiunta la classe "link" ad il link del footer per modificarne l'aspetto.  
+
