@@ -54,5 +54,5 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 >
 > ## Update 11.03.21
 >
-> Aggiunto Javascript per l'animazione della freccia del titolo.
+> Aggiunto CSS per l'animazione della freccia del titolo.
 >
