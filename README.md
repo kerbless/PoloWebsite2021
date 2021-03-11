@@ -53,3 +53,7 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > Modificato il modo in cui viene visualizzato il testo nel footer.
 >
 > ## Update 11.03.21
+>
+>
+>
+>
