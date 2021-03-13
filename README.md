@@ -14,6 +14,20 @@
   
 ***
 
+## Risorse utilizzate
+
+### Hardware
+
+Desktop PC:
+Laptop:
+Phone:
+
+### Software
+
+Visual studio Code
+
+***
+
 ## Aggiornamenti sullo sviluppo
 
 Altre info sugli updataes dello sviluppo possono essere trovati nei commit messages.
@@ -62,6 +76,7 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > Motificati tutti i colori del sito, dallo sfondo al testo ai link.  
 > Aggiunta animazione alle sezioni per espandere il testo.  
 > Modificati sfondi e bordi per nuove scelte di stile.  
-> Changed fonts.
-> TODO: logo, highlight color, background. 
+> Cambiati tutti i fonts.
+> Aggiustato questo file con aggiunta sezione "risorse" ancora in sviluppo.
+> TODO: logo, highlight color, background. Finish resources sections.
 >
