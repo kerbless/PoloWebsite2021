@@ -3,7 +3,7 @@
     --fg: #131316; /* foreground */
     --lk: #131316; /* link */
     --hg: #ef5d60; /* highlight */
-    --td: #607196; /* tone down */
+    --td: #a7c2dc; /* tone down */
 }
 
 * {
@@ -30,7 +30,7 @@
 
 body {
     display: flex;
-    min-height: 100vh;
+    min-height: 100vh; /* keeps the footer down even with lesser content */
     flex-direction: column;
     color: var(--fg);
     font-family: "Recursive", sans-serif;
@@ -97,7 +97,7 @@ header li {
 
 
 section {
-    margin-top: 4%;
+    margin-top: 1%;
     display: flex;
     /* flex-wrap: nowrap; can't remember why this was here */
     justify-content: center;
@@ -150,14 +150,14 @@ section p {
 }
 
 .subsection:hover {
-    animation: boxHover 0.7s forwards;
+    animation: boxHover 0.8s ease forwards;
 }
 
 @keyframes boxHover {
     from {
     }
     to {
-        letter-spacing: 2px;
+        letter-spacing: 0.1vmin;
     }
 }
 
@@ -166,7 +166,7 @@ footer {
     bottom: 0px;
     display: flex;
     flex-direction: column;
-    background: var();
+    background: var(--td);
     /* border-top: 1px solid var(fg); */
 }
 
