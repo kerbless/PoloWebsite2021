@@ -46,7 +46,6 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > Modificato il footer con un testo che ci informa sullo sviluppo del sito e un link per arrivare a questa pagina.  
 > Aggiunti riferimenti per ogni link della barra di navigazione, per adesso rimandano al sito ufficiale.  
 > Modificato il modo in cui viene visualizzato il testo all'interno delle ".subsection".
-> TODO: animazioni subsection + subsection cliccabili.
 >
 > ## Update 10.03.21
 >
@@ -64,5 +63,5 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > Aggiunta animazione alle sezioni per espandere il testo.  
 > Modificati sfondi e bordi per nuove scelte di stile.  
 > Changed fonts.
-> TODO: logo, highlight color, background.
+> TODO: logo, highlight color, background. 
 >
