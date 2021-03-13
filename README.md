@@ -54,6 +54,15 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 >
 > ## Update 11.03.21
 >
-> Aggiunto CSS per l'animazione della freccia del titolo.
+> Aggiunto CSS per l'animazione della freccia del titolo.  
 > Piccole operazioni di pulizia del codice CSS
->SS
+>
+> ## Update 13.03.21
+>
+> Studiato le variabili in CSS e applicate le conoscenze creando variabili di colori per testo, sfondo, link, e secondari.  
+> Motificati tutti i colori del sito, dallo sfondo al testo ai link.  
+> Aggiunta animazione alle sezioni per espandere il testo.  
+> Modificati sfondi e bordi per nuove scelte di stile.  
+> Changed fonts.
+> TODO: logo, highlight color, background.
+>

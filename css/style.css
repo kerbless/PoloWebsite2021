@@ -1,3 +1,11 @@
+:root {
+    --bg: #fff5ee; /* background */
+    --fg: #131316; /* foreground */
+    --lk: #131316; /* link */
+    --hg: #ef5d60; /* highlight */
+    --td: #607196; /* tone down */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,27 +19,30 @@
     width: 100%;
     height: 100%;
 
-    background: /* background strategy: https://css-tricks.com/css-basics-using-multiple-backgrounds +  https://stackoverflow.com/questions/19502454/background-sizecover-performance-issues */
-        linear-gradient(45deg, rgba(40,156,176,0.7) 0%, rgba(59,2,99,0.7) 100%) no-repeat center center fixed, /* gradient made with https://cssgradient.io */
-        url("../images/background.jpg") no-repeat center center fixed;
+    /* background strategy: https://css-tricks.com/css-basics-using-multiple-backgrounds +  https://stackoverflow.com/questions/19502454/background-sizecover-performance-issues */
+    /* gradient made with https://cssgradient.io */
+    background:
+        var(--bg);
+        /*linear-gradient(45deg, rgba(40,156,176,0.7) 0%, rgba(59,2,99,0.7) 100%) no-repeat center center fixed,
+        url("../images/background.jpg") no-repeat center fixed;*/
     background-size: cover;
-} 
+}
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    color: seashell;
-    font-family: 'Poppins', sans-serif;
+    color: var(--fg);
+    font-family: "Recursive", sans-serif;
 }
 
-.content-wrap {
+.content-wrap { /* pushes the footer down, adds the margin for the main content */
     flex: 1;
     margin: 0% 15%;
 }
 
 .link { /* Link styling learned from https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css */
-    color: seashell;
+    color: var(--lk);
     text-decoration: none; /* Remove default underline */
     background-image: linear-gradient(currentColor, currentColor); /* Gradients are manages as images by css, so we use "background-image" */
     background-position: 50% 100%;
@@ -45,8 +56,7 @@ body {
 }
 
 header {
-    font-family: "Josefin Sans", sans-serif;
-    border-bottom: solid white 1px;
+    border-bottom: solid var(--fg) 1px;
     margin: 0% 15%;
     padding: 1% 0%;
 }
@@ -58,10 +68,10 @@ header ul {
 }
 
 header li {
-    padding: 0% 1%;
     font-size: 1.2vmax;
     text-align: center;
 }
+
 
 /* trying stuff about dropdown menus */
 .dropdown {
@@ -71,7 +81,7 @@ header li {
 .sub_menu {
     display: flex;
     flex-direction: row;
-    background:rgba(0, 20, 30, 0.98);
+    background: var(--bg);
     position: absolute;
 }
 
@@ -85,20 +95,21 @@ header li {
 }
 /* trying stuff about dropdown menus */
 
+
 section {
-    /* margin: 0% 15%; */  
     margin-top: 4%;
     display: flex;
-    /* flex-wrap: nowrap; */
+    /* flex-wrap: nowrap; can't remember why this was here */
     justify-content: center;
 }
 
 section h1 {
     overflow-wrap: anywhere;
     font-weight: 800;
-    font-size: 6vmax;
+    font-size: 5vmax;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
 }
 
 #arrow-down {
@@ -106,12 +117,12 @@ section h1 {
     top: -10px;
     margin: 20px;
     padding: 15px;
-    box-shadow: 5px -5px 0 0 white inset;
+    box-shadow: 5px -5px 0 0 var(--fg) inset;
     transform: rotate(-45deg);
 }
 
 .subsection:hover #arrow-down {
-    animation : arrow 0.5s ease-in-out infinite alternate;
+    animation: arrow 0.5s ease-in-out infinite alternate;
 }
 
 @keyframes arrow {
@@ -131,13 +142,23 @@ section p {
 }
 
 .subsection {
-    background:rgba(0, 20, 30, 0.98);
     padding: 0% 2% 1% 2%;
     text-align: center;
-    border: 1px white solid;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.subsection:hover {
+    animation: boxHover 0.7s forwards;
+}
+
+@keyframes boxHover {
+    from {
+    }
+    to {
+        letter-spacing: 2px;
+    }
 }
 
 footer {
@@ -145,8 +166,8 @@ footer {
     bottom: 0px;
     display: flex;
     flex-direction: column;
-    background: rgba(0, 20, 30, 0.98);
-    border-top: 1px solid white;
+    background: var();
+    /* border-top: 1px solid var(fg); */
 }
 
 footer #copyright {
@@ -160,8 +181,17 @@ footer #copyright {
         margin: 0% 0%;
     }
 
+    header { /* remove margin from header */
+        margin: 0% 0%;
+    }
+
     section { /* flex vertical for subsections */
         flex-direction: column;
+    }
+    
+    #arrow-down { /* adjust arrow size */
+        padding: 10px;
+        box-shadow: 3px -3px 0 0 var(--fg) inset;
     }
 }
 
@@ -191,7 +221,7 @@ footer h1 {
     text-transform: capit;
     letter-spacing: 1px;
 }
-
+    
 footer p {
     padding-left: 10px;
 }
