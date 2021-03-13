@@ -77,6 +77,6 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > Aggiunta animazione alle sezioni per espandere il testo.  
 > Modificati sfondi e bordi per nuove scelte di stile.  
 > Cambiati tutti i fonts.
-> Aggiustato questo file con aggiunta sezione "risorse" ancora in sviluppo.
+> Aggiustato questo file con aggiunta sezione "risorse" ancora in sviluppo.  
 > TODO: logo, highlight color, background. Finish resources sections.
 >
