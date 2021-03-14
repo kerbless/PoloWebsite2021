@@ -18,7 +18,7 @@
 
 #### Desktop PC: 
 >
-> System Name: BLU1060  
+> System Name: BLU1060   
 > OS Name: Microsoft Windows 10 Pro	 
 > Version: 10.0.18363 Build 18363	 
 > System Type: x64-based PC		
