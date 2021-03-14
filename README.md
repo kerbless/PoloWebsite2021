@@ -19,8 +19,8 @@
 #### Desktop PC: 
 >
 > System Name: BLU1060   
-> OS Name: Microsoft Windows 10 Pro	 
-> Version: 10.0.18363 Build 18363	 
+> OS Name: Microsoft Windows 10 Pro  
+> Version: 10.0.18363 Build 18363  
 > System Type: x64-based PC		
 > Processor: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, 3401 Mhz, 4 Core(s), 8 Logical Processor(s)	 
 > BaseBoard Manufacturer: Gigabyte Technology Co., Ltd.	 
