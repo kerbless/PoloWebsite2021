@@ -18,19 +18,19 @@
 
 #### Desktop PC: 
 >
-> System Name: BLU1060   
+> System Name: BLU1060  
 > OS Name: Microsoft Windows 10 Pro  
 > Version: 10.0.18363 Build 18363  
-> System Type: x64-based PC		
-> Processor: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, 3401 Mhz, 4 Core(s), 8 Logical Processor(s)	 
-> Motherboard: Gigabyte H110M-S2H-CF	 
+> System Type: x64-based PC  
+> Processor: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, 3401 Mhz, 4 Core(s), 8 Logical Processor(s)  
+> Motherboard: Gigabyte H110M-S2H-CF  
 > Locale:	Italy  
-> Installed Physical Memory (RAM): 16.0 GB	 
+> Installed Physical Memory (RAM): 16.0 GB  
 > GPU: NVIDIA GeForce GTX 1060 6GB  
-> Wi-Fi: Realtek PCIe GbE Family Controller	 
-> Audio: NVIDIA High Definition Audio	 
-> HDD: WDC WD10EZEX-60WN4A0 931.39 GB (1,000,067,821,568 bytes)	 
-> SSD: Crucial_CT275MX300SSD1 254.77 GB (273,560,719,360 bytes) 
+> Wi-Fi: Realtek PCIe GbE Family Controller  
+> Audio: NVIDIA High Definition Audio  
+> HDD: WDC WD10EZEX-60WN4A0 931.39 GB (1,000,067,821,568 bytes)  
+> SSD: Crucial_CT275MX300SSD1 254.77 GB (273,560,719,360 bytes)  
 > 
 #### Laptop:
 >
@@ -144,7 +144,7 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 - [ ] Add logo  
 - [ ] Highlight color  
 - [ ] Change background  
-- [*] Finish resources sections
+- [x] Finish resources sections
 
 
 
