@@ -16,7 +16,7 @@
 
 ### Hardware
 
-#### Desktop PC: 
+#### Desktop PC
 >
 > System Name: BLU1060  
 > OS Name: Microsoft Windows 10 Pro  
@@ -24,51 +24,52 @@
 > System Type: x64-based PC  
 > Processor: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, 3401 Mhz, 4 Core(s), 8 Logical Processor(s)  
 > Motherboard: Gigabyte H110M-S2H-CF  
-> Locale:	Italy  
+> Locale: Italy  
 > Installed Physical Memory (RAM): 16.0 GB  
 > GPU: NVIDIA GeForce GTX 1060 6GB  
 > Wi-Fi: Realtek PCIe GbE Family Controller  
 > Audio: NVIDIA High Definition Audio  
 > HDD: WDC WD10EZEX-60WN4A0 931.39 GB (1,000,067,821,568 bytes)  
 > SSD: Crucial_CT275MX300SSD1 254.77 GB (273,560,719,360 bytes)  
-> 
-#### Laptop:
+>
+#### Laptop
 >
 > System Name: BLUEENVY  
 > OS Name: Microsoft Windows 10 Home  
-> Version: Version	10.0.19041 Build 19041  
+> Version: Version 10.0.19041 Build 19041  
 > System Type: x64-based PC  
 > System Model: HP ENVY Laptop 13-ad1xx  
-> Processor: Processor	Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 1800 Mhz, 4 Core(s), 8 Logical Processor(s)  
+> Processor: Processor Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 1800 Mhz, 4 Core(s), 8 Logical Processor(s)  
 > BaseBoard Product: HP 83A7  
-> Locale:	United Kingdom  
-> Installed Physical Memory (RAM): 8.0 GB	 
+> Locale: United Kingdom  
+> Installed Physical Memory (RAM): 8.0 GB  
 > GPU: None  
 > Wi-Fi: Intel(R) Dual Band Wireless-AC 7265  
 > Audio: Realtek High Definition Audio  
 > SSD: KXG50ZNV256G TOSHIBA 238.47 GB (256,052,966,400 bytes)  
-> 
-#### Phone:
+>
+#### Phone
 >
 > Model: Xiaomi Mi 9T Pro  
->	Body:	156.7 x 74.3 x 8.8 mm - 191 g  
+> Body: 156.7 x 74.3 x 8.8 mm - 191 g  
 > Display:  Super AMOLED 6.39 inches 1080 x 2340 pixels (~403 ppi density)  
 > Sim: Dual SIM (Nano-SIM, dual stand-by)  
-> Protection:	Corning Gorilla Glass 5  
-> OS	Android 9.0 (Pie), upgradable to Android 10, MIUI 12  
+> Protection: Corning Gorilla Glass 5  
+> OS Android 9.0 (Pie), upgradable to Android 10, MIUI 12  
 > Chipset: Qualcomm SM8150 Snapdragon 855 (7 nm)  
 > CPU: Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485)  
 > GPU: Adreno 640  
 > Memory: 128GB 6GB RAM  
 > Camera: Triple 48 MP, 8 MP telephoto 2x, 13 MP ultrawide.  
-> Wlan:	Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot  
+> Wlan: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot  
 > Bluetooth: 5.0, A2DP, LE, aptX HD  
 > Featuers: GPS, NFC, Radio, USB Type-C 2.0, USB On-The-Go, Under display fingerprint, accelerometer, gyro, proximity, compass  
 > Battery: Li-Po 4000 mAh (Fast charging 27W, Quick Charge 4+)  
 >
 
 ### Software
-#### Applications:
+
+#### Applications
 >
 > Visual studio Code  
 > Github desktop
@@ -76,11 +77,12 @@
 > Edge web browser
 > Firefox web browser
 >
-#### Webistes:
+#### Webistes
 >
 > github.com  
 > google.com  
 > developer.mozilla.org
+
 ## Aggiornamenti sullo sviluppo
 
 Altre info sugli updataes dello sviluppo possono essere trovati nei commit messages.
@@ -138,6 +140,7 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 > Creata una sezione "TODO" in cui listare le cose da sviluppare.
 >
 ***
+
 ## TODO
 
 - [ ] Clickable .subsections  
@@ -145,7 +148,3 @@ Altre info sugli updataes dello sviluppo possono essere trovati nei commit messa
 - [ ] Highlight color  
 - [ ] Change background  
 - [x] Finish resources sections
-
-
-
-
