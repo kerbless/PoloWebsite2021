@@ -23,7 +23,7 @@
     /* gradient made with https://cssgradient.io */
     background:
         var(--bg);
-        /*linear-gradient(45deg, rgba(40,156,176,0.7) 0%, rgba(59,2,99,0.7) 100%) no-repeat center center fixed,
+        /*linear-gradient(45deg, rgba(40,156,176,0.7) 0%, rgba(59,2,99,0.7) 100%) no-repeat center fixed,
         url("../images/background.jpg") no-repeat center fixed;*/
     background-size: cover;
 }
